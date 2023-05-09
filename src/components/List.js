@@ -35,7 +35,16 @@ const List = () => {
         <Text fontSize="sm">Phone Number</Text>
       </Box>
       {total === 0 && (
-        <Text as="p" fontSize="sm" color="gray.700" mb={4}>
+        <Text
+          as="p"
+          fontSize="sm"
+          color="gray.700"
+          w="100%"
+          display="flex"
+          justifyContent="flex-start"
+          alignItems="center"
+          ml={7}
+        >
           No contacts found
         </Text>
       )}
