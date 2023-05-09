@@ -35,7 +35,7 @@ const Item = ({ item }) => {
         </Text>
       </Box>
       <Box>
-        <Box as="button" color="red.500" fontWeight="bold" fontSize="sm" onClick={handleDelete}>
+        <Box as="button" color="red.500" fontWeight="bold" fontSize="sm" onClick={() => handleDelete(item.id)}>
           Delete
         </Box>
         <Box as="button" color="blue.500" fontWeight="bold" fontSize="sm" ml={2}>
