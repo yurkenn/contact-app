@@ -4,6 +4,11 @@ This is a simple contact app that allows you to add, edit, and delete contacts. 
 
 ## Video Demo
 
+
+https://github.com/yurkenn/contact-app/assets/69719126/370535f0-903c-4489-90f7-c1831b24f503
+
+
+
 ## Installation
 
 1. Clone the repo
